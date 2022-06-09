@@ -11,9 +11,3 @@ export default class App {
         return data;
     }
 }
-
-(async () => {
-    const app = new App();
-    const data = await app.fetchPricePairs(['ETH', 'DASH'], ['USD', 'BTC']);
-    console.log(data);
-})();
