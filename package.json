@@ -1,20 +1,26 @@
 {
     "name": "crypto-prices-demo",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Backend sdk through which anyone can integrate/ calculate multiple crypto pair prices",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "start:dev": "NODE_ENV=development DEBUG=crypto-prices-demo:* nodemon src/index.ts",
         "clean": "rm -rf dist",
         "build": "npm run clean && npm run build:app",
         "build:app": "npx tsc",
-        "start": "node dist/server.js"
+        "start": "node dist/index.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/okezieobi/crypto-prices-demo.git"
     },
-    "keywords": [],
+    "keywords": [
+        "crypto",
+        "api",
+        "testing",
+        "sdk",
+        "typescript"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {
