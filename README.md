@@ -6,5 +6,5 @@ Typescript backend sdk through which anyone can integrate/ calculate multiple cr
 
 - get api key from <https://www.cryptocompare.com/>
 - add `.env` file at project root containing key `CRYPTO_API_KEY` and value as api key from above
-- import library and call available methods like: 
+- import library and call available methods like:
   - `fetchPricePairs`
